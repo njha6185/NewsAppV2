@@ -33,7 +33,7 @@
     <string name="setting_news_area_by_world_value">world</string>
 
     <string name="setting_news_area_by_india_label">India</string>
-    <string name="setting_news_area_by_india_value">world/india</string>
+    <string name="setting_news_area_by_india_value">india</string>
 
     <string name="setting_no_of_news_per_page_label">No of News Per Page</string>
     <string name="setting_no_of_news_per_page_key">no_of_news</string>
@@ -44,5 +44,24 @@
     <string name="to">To :</string>
     <string name="refresh_image">refresh_image</string>
     <string name="search_title">Search for Topic</string>
+
     <string name="news">News</string>
+
+    <string name="all">All</string>
+    <string name="film">Film</string>
+    <string name="world">World</string>
+    <string name="sport">Sport</string>
+    <string name="football">Football</string>
+    <string name="culture">Culture</string>
+    <string name="cricket">Cricket</string>
+    <string name="business">Business</string>
+    <string name="fashion">Fashion</string>
+    <string name="technology">Technology</string>
+    <string name="travel">Travel</string>
+    <string name="finance">Finance</string>
+    <string name="science">Science</string>
+    <string name="guardian_news_app_v2">GUARDIAN NEWS APP V2</string>
+
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
 </resources>

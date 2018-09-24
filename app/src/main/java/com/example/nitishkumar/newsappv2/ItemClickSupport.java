@@ -14,6 +14,7 @@ import android.view.View;
       }
   });
 */
+
 public class ItemClickSupport {
     private final RecyclerView mRecyclerView;
     private OnItemClickListener mOnItemClickListener;
