@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">NewsAppV2</string>
+    <string name="date_text">20-15-2018</string>
+    <string name="author_name_text">Author Name</string>
+    <string name="news_type_text">News Type</string>
+    <string name="news_thumbnail_image">News Thumbnail Image</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="no_news">No News Data Available</string>
+    <string name="news_heading_text">This is For News HeadLines!!!This is For News HeadLines!!!This is For News HeadLines!!!</string>
+    <string name="news_setting_title">News Setting</string>
+    <string name="setting_menu_heading">Setting</string>
+    <string name="connectivity_service_problem">Problem in Accessing Connectivity Services!</string>
+    <string name="API_KEY" translatable="false">0d7fa385-b5f8-4575-a98a-85b890e847ba</string>
+
+    <string name="setting_order_by_label">Order By</string>
+    <string name="setting_order_by_key">order_by</string>
+    <string name="setting_order_by_default">@string/setting_order_by_newest_value</string>
+
+    <string name="setting_order_by_newest_label">Newest</string>
+    <string name="setting_order_by_newest_value">newest</string>
+
+    <string name="setting_order_by_oldest_label">Oldest</string>
+    <string name="setting_order_by_oldest_value">oldest</string>
+
+    <string name="setting_news_area_label">News Area</string>
+    <string name="setting_news_area_key">news_area</string>
+    <string name="setting_news_area_default">@string/setting_news_area_by_all_value</string>
+
+    <string name="setting_news_area_by_all_label">All</string>
+    <string name="setting_news_area_by_all_value">search</string>
+
+    <string name="setting_news_area_by_world_label">World</string>
+    <string name="setting_news_area_by_world_value">world</string>
+
+    <string name="setting_news_area_by_india_label">India</string>
+    <string name="setting_news_area_by_india_value">world/india</string>
+
+    <string name="setting_no_of_news_per_page_label">No of News Per Page</string>
+    <string name="setting_no_of_news_per_page_key">no_of_news</string>
+    <string name="setting_no_of_news_per_page_default">25</string>
+    <string name="editPrefHint">Value must be between 1 to 200</string>
+    <string name="from_text">From:</string>
+    <string name="date_picker_text">20-10-2018</string>
+    <string name="to">To :</string>
+    <string name="refresh_image">refresh_image</string>
+    <string name="search_title">Search for Topic</string>
+    <string name="news">News</string>
+</resources>

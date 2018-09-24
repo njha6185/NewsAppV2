@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="setting_order_by_labels">
+        <item>@string/setting_order_by_newest_label</item>
+        <item>@string/setting_order_by_oldest_label</item>
+    </string-array>
+
+    <string-array name="setting_order_by_values">
+        <item>@string/setting_order_by_newest_value</item>
+        <item>@string/setting_order_by_oldest_value</item>
+    </string-array>
+
+    <string-array name="setting_news_area_by_labels">
+        <item>@string/setting_news_area_by_all_label</item>
+        <item>@string/setting_news_area_by_world_label</item>
+        <item>@string/setting_news_area_by_india_label</item>
+    </string-array>
+
+    <string-array name="setting_news_area_by_values">
+        <item>@string/setting_news_area_by_all_value</item>
+        <item>@string/setting_news_area_by_world_value</item>
+        <item>@string/setting_news_area_by_india_value</item>
+    </string-array>
+
+</resources>

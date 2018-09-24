@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_5dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/datePickerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/_5dp"
+        android:background="@color/light_silver">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/from_text"
+            android:padding="@dimen/_5dp"
+            android:textSize="@dimen/_15sp"/>
+
+        <TextView
+            android:id="@+id/fromDateText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="@string/date_picker_text"
+            android:padding="@dimen/_5dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/_15sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/to"
+            android:padding="@dimen/_5dp"
+            android:textSize="@dimen/_15sp"/>
+
+        <TextView
+            android:id="@+id/toDateText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="@string/date_picker_text"
+            android:padding="@dimen/_5dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/_15sp"/>
+
+        <ImageView
+            android:id="@+id/refreshImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/_5dp"
+            android:src="@drawable/ic_autorenew_black_24dp"
+            android:gravity="center"
+            android:contentDescription="@string/refresh_image"
+            android:layout_marginStart="@dimen/_5dp" />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerViewList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/datePickerLayout">
+    </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/empty_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textAppearance="?android:textAppearanceMedium"/>
+
+    <ProgressBar
+        android:id="@+id/loading_indicator"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>
